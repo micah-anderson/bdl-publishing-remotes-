@@ -34,4 +34,7 @@ code .
 9. git merge branch1
 
 10. git branch -d branch1
+
+11. git push --set-upstream origin master
+
 🐬
