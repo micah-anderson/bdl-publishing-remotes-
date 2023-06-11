@@ -19,15 +19,17 @@ Answers:
 4. git remote -v
     •you should now see that the Github repository that you had created earlier has now replaced your local repository. 
     You will see:
-    origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (fetch)
-    origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (push)
+    •origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (fetch)
+    •origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (push)
 
 5. git checkout -b branch1
 
 6. touch README.md
 code .
 
-7. git push --set-upstream origin branch1
+7. git add .
+    •git commit -m "commit message"
+    •git push --set-upstream origin branch1
 
 8. git checkout master
 
@@ -35,6 +37,12 @@ code .
 
 10. git branch -d branch1
 
-11. git push --set-upstream origin master
+11. git push -u origin master
+
+12. git status
+
+13. git add .
+    •git commit -m "commit message"
+    •git push
 
 🐬
