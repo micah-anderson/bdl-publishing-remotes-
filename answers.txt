@@ -1,0 +1,32 @@
+Answers:
+
+1. Create a GitHub Repository:
+    • Go to GitHub’s website (github.com) and log in to your account.
+    • Click on the "+" sign at the top right corner of the page and select "New repository."
+    • Give your repository a name, choose whether it should be public or private, add an optional description and a README file if you want.
+    • Click on the "Create repository" button.
+
+2. ctrl+alt+t to open a new terminal window.
+    •Cd into the folder that you want your repository to be in.
+    •mkdir bdl-publishing-remotes
+    •cd bdl-publishing-remotes
+    •git init
+
+3. remote -v (you should see the path to your local repositories location).
+    •go back to the repository that you made on Github and copy the SSH key.
+    •Go back to your terminal and type: git remote add origin git@github.com:micah-anderson/bdl-publishing-remotes-.git
+
+4. git remote -v
+    •you should now see that the Github repository that you had created earlier has now replaced your local repository. 
+    You will see:
+    origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (fetch)
+    origin	git@github.com:micah-anderson/bdl-publishing-remotes-.git (push)
+
+5. git checkout -b branch1
+
+6. touch README.md
+code .
+
+7. git push --set-upstream origin branch1
+
+🐬
